@@ -2,7 +2,7 @@
 
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
 
- This solution is built using HTML, JavaScript &  CSS with Styled Components for styling. The form is responsive and includes hover and focus states for all interactive elements. The success message is displayed after a successful submission. The form validation messages are displayed if any field is incomplete. The project is deployed on GitHub Pages. The solution is available at [https://your-solution-url.com](
+ This solution is built using HTML, JavaScript &  CSS with Styled Components for styling. The form is responsive and includes hover and focus states for all interactive elements. The success message is displayed after a successful submission. The form validation messages are displayed if any field is incomplete. The project is deployed on GitHub Pages. The solution is available at [https://github.com/Tida007/newsletter-sign-up-with-success-message-main.git]
 
 ## Table of contents
 
@@ -35,8 +35,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Tida007/newsletter-sign-up-with-success-message-main.git)
+
+- Live Site URL: (https://tida007.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 
@@ -53,14 +54,10 @@ Users should be able to:
 ### What I learned
 
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 ## Author
 
-- Website - [Tida Tmg](https://www.your-site.com)
+- Website - [Tida Tmg](https://tida007.github.io/newsletter-sign-up-with-success-message-main/)
+
 - Frontend Mentor - [@Tida007](https://www.frontendmentor.io/profile/Tida007)
 - discord - [@tida_tmg](https://discord.gg/tida_tmg)
 
