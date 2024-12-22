@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/png">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+
+    <title>Newsletter sign-up with success message</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Newsletter sign-up with success message</title>
+</head>
+<body>
+
+    <main>
+        <article class="newsletter split" aria-live="polite">
+            <div class="newsletter_image">
+                <picture>
+                    <source srcset="./assets/images/illustration-sign-up-desktop.svg" media="(min-width: 768px)">
+                    <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+                </picture>
+            </div>
+            <div class="newsletter_content flow-content container">
+                <h2 class="text-preset-1">Stay updated!</h2>
+                <p class="newsletter_subtitle">Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul class="newsletter_list">
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </ul>
+                <form action="#" class="newsletter_form" id="newsletter-form">
+                    <div class="newsletter_email">
+                        <label for="email" class="newsletter_label text-preset-3">Email address</label>
+                        <input type="email" class="newsletter_input text-preset-2" id="email" placeholder="email@company.com" required>
+                    </div>
+                    <button type="submit" class="button text-preset-2" formnovalidate>Subscribe to monthly newsletter</button>
+                </form>
+            </div>
+        </article>
+        <article class="success hidden" aria-live="polite">
+            <div class="success_content container">
+                <div class="flow-content">
+                    <img src="./assets/images/icon-success.svg" alt="Checkmark icon" class="succes_icon">
+                    <h2 class="text-preset-1">Thanks for subscribing</h2>
+                    <p class="success_subtitle">A confirmation email has been sent to <span class="success_email">mail@company.com</span>. Please open it and click the button inside to confirm your subscription</p>
+                </div>
+                <button class="button reset text-preset-2">Dismiss message</button>
+            </div>
+
+        </article>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+</html>

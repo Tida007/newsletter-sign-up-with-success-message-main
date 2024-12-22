@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+/* color */
+/* typography */
+/* spacer */
+/* reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+    line-height: 1.2;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+figure {
+    margin: 0;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    line-height: 150%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: hsl(234, 29%, 20%);
+    background: hsl(235, 18%, 26%);
+    font-weight: 400;
+}
+
+/* utility */
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.flow-content > * + * {
+    margin-top: var(--flow-space, 2rem);
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-preset-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.text-preset-2 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.text-preset-3 {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 150%;
+}
+
+@media (min-width: 40rem) {
+    .text-preset-1 {
+        font-size: 3.5rem;
+    }
+    .split {
+        flex-direction: row;
+    }
+}
+article {
+    background: #fff;
+}
+
+.newsletter {
+    min-height: 100vh;
+}
+.newsletter_content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.newsletter_list li {
+    background-image: url("./assets/images/icon-list.svg");
+    background-repeat: no-repeat;
+    line-height: 1;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.newsletter_email {
+    position: relative;
+}
+.newsletter .just-validate-error-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: hsl(14, 100%, 67%) !important;
+    font-size: 0.75rem;
+}
+.newsletter_input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid hsla(243, 28%, 13%, 0.25);
+    border-radius: 0.5rem;
+    color: hsl(234, 29%, 20%);
+}
+.newsletter_input::-moz-placeholder {
+    color: hsl(231, 7%, 60%);
+}
+.newsletter_input::placeholder {
+    color: hsl(231, 7%, 60%);
+}
+.newsletter_input:focus-visible {
+    outline: none;
+    border: 1px solid hsl(234, 29%, 20%);
+}
+.newsletter_input.error {
+    border: 1px solid hsl(14, 100%, 67%);
+    background: hsl(4, 100%, 95%);
+    color: hsl(4, 100%, 67%);
+}
+
+.button {
+    border: none;
+    color: #fff;
+    background: hsl(234, 29%, 20%);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    font-weight: 700;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.button:hover, .button:focus-visible {
+    background: linear-gradient(0deg, #ff6a3a, #ff527b);
+    box-shadow: 0 16px 32px 0 rgba(255, 82, 123, 0.4);
+}
+
+.success {
+    min-height: 100vh;
+}
+.success_content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.success img {
+    width: 4rem;
+}
+.success_email {
+    font-weight: 700;
+}
+.success .button {
+    margin-bottom: 0;
+}
+
+@media (min-width: 60rem)  {
+    main {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+    }
+    .newsletter {
+        min-height: unset;
+        flex-direction: row-reverse;
+        gap: 1.5rem;
+        border-radius: 2.25rem;
+        padding: 1.5rem;
+    }
+    .newsletter_content {
+        padding: 3rem;
+    }
+    .success {
+        border-radius: 2.25rem;
+        min-height: unset;
+    }
+    .success_content {
+        min-height: unset;
+        max-width: 31.5rem;
+        padding: 4rem;
+    }
+} /* # sourceMappingURL=styles.map*/
