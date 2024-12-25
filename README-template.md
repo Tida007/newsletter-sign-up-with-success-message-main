@@ -2,8 +2,7 @@
 
 This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv).
 
- This solution is built using HTML, JavaScript &  CSS with Styled Components for styling. The form is responsive and includes hover and focus states for all interactive elements. The success message is displayed after a successful submission. The form validation messages are displayed if any field is incomplete. The project is deployed on GitHub Pages. The solution is available at [https://github.com/Tida007/newsletter-sign-up-with-success-message-main.git]
-
+ This solution is built using HTML, JavaScript &  CSS with Styled Components for styling. The form is responsive and includes hover and focus states for all interactive elements. The success message is displayed after a successful submission. The form validation messages are displayed if any field is incomplete. The project is deployed on GitHub Pages. 
 ## Table of contents
 
 - [Overview](#overview)
@@ -37,7 +36,7 @@ Users should be able to:
 
 - Solution URL: (https://github.com/Tida007/newsletter-sign-up-with-success-message-main.git)
 
-- Live Site URL: (https://tida007.github.io/newsletter-sign-up-with-success-message-main/)
+- Live Site URL: (https://tida007.github.io/newsletter-signup/)
 
 ## My process
 
@@ -56,7 +55,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Tida Tmg](https://tida007.github.io/newsletter-sign-up-with-success-message-main/)
+- Website - [Tida Tmg](https://tida007.github.io/newsletter-signup/)
 
 - Frontend Mentor - [@Tida007](https://www.frontendmentor.io/profile/Tida007)
 - discord - [@tida_tmg](https://discord.gg/tida_tmg)
