@@ -25,6 +25,9 @@ validator
 
     // Define what happens when the form is successfully validated
     .onSuccess(() => {
+        // Get the email value from the form and display it in the success message
+        const email = document.querySelector("#email").value;
+        document.querySelector(".success_email").textContent = email;
         success.classList.remove("hidden");
         newsletterForm.classList.add("hidden");
     });
