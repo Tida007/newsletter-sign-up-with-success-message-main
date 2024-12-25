@@ -30,7 +30,11 @@ validator
     });
 
 // Add an event listener to the reset button to reset the form
-resetButton.addEventListener("click", resetForm);
+resetButton.addEventListener("click", () => {
+    success.classList.add("hidden");
+    newsletterForm.classList.remove("hidden");
+    document.querySelector("#newsletter-form").reset();
+});
 
 // Function to reset the form and hide the success message
 function resetForm() {
